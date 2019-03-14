@@ -15,7 +15,7 @@ package point1;
 		  
 		public class N15{  
 		public static void main(String args[]){  
-		final TT1 obj = new TT1();  
+		TT1 obj = new TT1();  
 		  
 		Thread t1=new Thread(){  
 		public void run(){  

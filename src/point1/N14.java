@@ -3,7 +3,8 @@ package point1;
 	
 	class T1{  
 		 synchronized void printTable(int n){  
-		   for(int i=1;i<=5;i++){  
+		   for(int i=1;i<=5;i++){ 
+			   
 		     System.out.println(n*i);  
 		     try{  
 		      Thread.sleep(400);  
@@ -11,6 +12,7 @@ package point1;
 		   }  
 		  
 		 }  
+		 
 		}  
 		  
 		class T2 extends Thread{  

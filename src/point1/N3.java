@@ -19,7 +19,7 @@ public class N3 implements Runnable {
 		t1.start();
 		t2.start();
 		t3.start();
-
+		tg1.list();
 	}
 
 }
